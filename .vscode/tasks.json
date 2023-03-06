@@ -9,6 +9,7 @@
                 "-fansi-escape-codes",
                 "-g",
                 "${file}",
+                "-std=c++20",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
